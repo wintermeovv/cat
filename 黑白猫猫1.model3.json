@@ -1,0 +1,153 @@
+{
+  "Version": 3,
+  "Type": 0,
+  "FileReferences": {
+    "Moc": "黑白猫猫/黑白猫猫.moc3",
+    "Textures": [
+      "黑白猫猫/黑白猫猫.8192/texture_00.png",
+      "黑白猫猫/黑白猫猫.8192/texture_01.png"
+    ],
+    "Physics": "黑白猫猫/黑白猫猫.physics3.json",
+    "PhysicsV2": {
+      "File": "黑白猫猫/黑白猫猫.physics3.json"
+    },
+    "Motions": {
+      "Idle": [
+        {
+          "File": "黑白猫猫/motion/循环.motion3.json",
+          "WrapMode": 1
+        }
+      ],
+      "switch": [
+        {
+          "Name": "on",
+          "Text": "on",
+          "VarFloats": [
+            {
+              "Name": "var",
+              "Type": 1,
+              "Code": "equal 1"
+            },
+            {
+              "Name": "var",
+              "Type": 2,
+              "Code": "assign 0"
+            }
+          ]
+        },
+        {
+          "Name": "off",
+          "Text": "off",
+          "VarFloats": [
+            {
+              "Name": "var",
+              "Type": 1,
+              "Code": "equal 0"
+            },
+            {
+              "Name": "var",
+              "Type": 2,
+              "Code": "assign 1"
+            }
+          ]
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "前发切换.exp3",
+        "File": "黑白猫猫/exp/前发切换.exp3.json"
+      },
+      {
+        "Name": "后发切换.exp3",
+        "File": "黑白猫猫/exp/后发切换.exp3.json"
+      },
+      {
+        "Name": "哭哭.exp3",
+        "File": "黑白猫猫/exp/哭哭.exp3.json"
+      },
+      {
+        "Name": "哭哭嘴.exp3",
+        "File": "黑白猫猫/exp/哭哭嘴.exp3.json"
+      },
+      {
+        "Name": "无语.exp3",
+        "File": "黑白猫猫/exp/无语.exp3.json"
+      },
+      {
+        "Name": "死机.exp3",
+        "File": "黑白猫猫/exp/死机.exp3.json"
+      },
+      {
+        "Name": "混乱.exp3",
+        "File": "黑白猫猫/exp/混乱.exp3.json"
+      },
+      {
+        "Name": "生气.exp3",
+        "File": "黑白猫猫/exp/生气.exp3.json"
+      },
+      {
+        "Name": "生气嘴.exp3",
+        "File": "黑白猫猫/exp/生气嘴.exp3.json"
+      },
+      {
+        "Name": "眼镜.exp3",
+        "File": "黑白猫猫/exp/眼镜.exp3.json"
+      },
+      {
+        "Name": "血迹.exp3",
+        "File": "黑白猫猫/exp/血迹.exp3.json"
+      },
+      {
+        "Name": "面条泪.exp3",
+        "File": "黑白猫猫/exp/面条泪.exp3.json"
+      }
+    ]
+  },
+  "Controllers": {
+    "ParamHit": {},
+    "ParamLoop": {},
+    "KeyTrigger": {},
+    "ParamTrigger": {},
+    "AreaTrigger": {},
+    "HandTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 5.0
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {
+      "Enabled": true
+    },
+    "HandTracking": {},
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "Options": {
+    "TexType": 0
+  }
+}
